@@ -1,3 +1,4 @@
+
 from operator import index
 
 
@@ -39,7 +40,15 @@ listappend = ["E","F","G",]
 # listappend.insert(0,"I")
 # print(listappend),
 listext = ["F","G","E",] 
+listext.insert(2, "Insert")
+listext[3] = "INSERT"
 listextend = ["L","J","M","L","E"]
+print(listext)
+listext.remove("INSERT")
+print(f"Remove List === {listext}")
+print(listappend)
+listappend.pop(2)
+print(f"pop List === {listappend}")
 listext.extend(listextend)
 print(f" Extend Keyword == {listext}")
 print(len(listext))
