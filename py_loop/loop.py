@@ -1,8 +1,13 @@
-# i = 20
-# # Even Number program
+i = 0
+# Even Number program
 # while i<=100:
 #     i =i+2
 #     print(f"Even number =  {i}")
+# odd Number program
+while i<=100:
+    i =i+3
+    print(f"odd number =  {i}")
+
 
 
 # Odd Number print program
