@@ -29,9 +29,12 @@ elif marks >=70:
     print("A")
 elif marks >=60:
     print("B")
+
 elif marks >=70:
     print("C")
 else:
     print("failed")
     
 print(marks if marks>50 else 60)
+
+# 
