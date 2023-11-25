@@ -22,6 +22,16 @@ print(number1//number2)
 print(number1**2)
 print(2**3)
 
+# Data type range -----------------------------------
+
+
+
+
+
+
+
+
+
 
 # Python type Casting 
 # 
