@@ -1,9 +1,11 @@
+
+
 print("program - ----- 1 & 2 Multiple datatype input **************************** ")
 
 
 name = input("Input your name : ")
-print(name),
-print("Name " + name),
+print(name)
+print("Name " + name)
 
 age = int(input("Input Age : "))
 print(" Age ",+ age)
