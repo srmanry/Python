@@ -9,6 +9,14 @@ else:
     print("Odd Number")
     
 print("hello")
+
+
+num = int(input("Enter number  : "))
+result = 1
+for i in range(0,num):
+    result = result +i
+print(result)
+
     
 
 
