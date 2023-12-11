@@ -13,8 +13,11 @@ print("hello")
 
 num = int(input("Enter number  : "))
 result = 1
+res =1
 for i in range(0,num):
     result = result +i
+    res = res *i
+print(f"res{res}")
 print(result)
 
     
